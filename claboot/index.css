@@ -1,0 +1,14 @@
+#pills-home-tab, #pills-profile-tab,#pills-contact-tab {
+   color:white !important;
+}
+#pills-home-tab .active, #pills-profile-tab .active,#pills-contact-tab .active{
+    background-color: red !important;
+}
+.ico{
+    position: fixed;
+    color: brown ;
+    bottom: 0;
+  right: 0;
+  width: 300px;
+ 
+}
