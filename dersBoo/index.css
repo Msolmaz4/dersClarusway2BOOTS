@@ -1,0 +1,46 @@
+/*! -------------- 1- NAVBAR -------------- */
+.navbar-nav{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar .nav-link:hover  {
+    color: red !important;
+}
+
+/*! -------------- 2- CAROUSEL -------------- */
+.carousel-item{
+    max-height: calc(100vh - 95px);
+}
+.carousel-caption h5{
+      color:red;
+      font-size: 2.4rem;
+      text-shadow: 3px 3px 3px black;
+    }
+    .carousel-caption p{
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+        
+}
+
+/*! -------------- 3- ABOUT SECTION -------------- */
+
+/*! -------------- 4- INSTRUCTORS -------------- */
+#instro .card:hover{
+    transform: scale(1.03);
+    transition: transform0.3s;
+}
+
+section#instro i{
+    transition: opacity .6s;
+}
+section#instro i:hover{
+    opacity: 0.5;
+}
+/*! -------------- 4- STUDENTS SECTION -------------- */
+
+/*! -------------- 5- COURSES SECTION -------------- */
+
+/*! -------------- 6- CONTACT SECTION -------------- */
+
+/*! -------------- 7- FOOTER -------------- */
