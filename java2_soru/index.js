@@ -66,8 +66,10 @@
 
 //  console.log(`icinde bulundugumuz ${new Date().getDay()} gun ${new Date().getMonth()} ay ${new Date().getFullYear()} yil` )
 
-
-
+///////////////////////////////////////////////////////
+//verilen sayinin max ve min genel toplamadan cikarme
+/////////////////////////////////////////////
+///////////////////////////////////////////////
 // let tr = [1,2,3,4,5,7]
 // let toplam = 0
 // let min = tr[0]
@@ -79,7 +81,11 @@
 //     min = Math.min(min,tr[i])
 // }
 // console.log(toplam-max-min)
-
+//////////////////
+////////////////////////////////////////////////////
+///////icerde onuc varsa alta ve topl
+/////////////////////////////////////////
+/////////////////////////////////////
 // let py = [3,15,13,4]
 // let toplam = 0
 
@@ -94,7 +100,11 @@
 //  console.log(toplam)
 // }
 
-
+///////////////////////////////////
+/////////////////////////////////////////
+///////Arka arakaya iki varsa true yokdsa false cevir
+///////////////////////////////////////////
+///////////////////////////////////////
 // function dre(){
 //     let fg = [1,2,2,8]
 //     for(i= 0 ;i<fg.length ; i++){
@@ -125,13 +135,36 @@
 // }
 
 // console.log(say1 >say2 ? true :false) 
+////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+//girilrn sayinin string olarak gosterilmsei
+/////////////////////////////////////////
+////////////////////////////////////////
+// let der  =  prompt('bir say giriniz')
 
-let der  =  prompt('bir say giriniz')
+// let rt = []
 
-let rt = []
+// for(i = 0; i<Number(der) ; i++){
+// rt.push(i+'')
+// }
 
-for(i = 0; i<Number(der) ; i++){
-rt.push(i)
+// console.log(rt)
+
+console.log('hello')
+/////////////////////////////////
+///////girilen sayalar arda uc sayi ardasiksa true nzaysdir
+//////////////////////////////////////
+///////////////////////////////
+let der = [3,4,5,11,98]
+
+function ert(){
+
+    for(i=0 ; i <der.length ;i++){
+    if(der[i+1]- der[i] == 1 && der[i+2]-der[i] == 2) {
+      return  console.log(true)
+    }else return console.log(flase)
+     
 }
+}
+ert()
 
-console.log(rt)
