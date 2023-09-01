@@ -42,26 +42,38 @@ document.write('browserde sonuc goserme')
 // //Math.sqrt
 // console.log(Math.sqrt(49))
 //bactik
-//contact 
-let ada = [1,4,4,9,3]
- let ar = ada[ada.length-1]
- console.log(typeof ar)
+// //contact 
+// let ada = [1,4,4,9,3]
+//  let ar = ada[ada.length-1]
+//  console.log(typeof ar)
 
- let sonuc = ada.push('5')
- console.log(sonuc)
-//console.log(ada[0] +ada[1])
-//et er = ada.push(7)
-//console.log(ada,'er')
-let d = []
-console.log(d,'ilk d')
-for(i= 0 ; i<ada.length - 1 ;i++){
-  console.log(i)
-  d.push(Number([i]-[i]))
+//  let sonuc = ada.push('5')
+//  console.log(sonuc)
+// //console.log(ada[0] +ada[1])
+// //et er = ada.push(7)
+// //console.log(ada,'er')
+// let d = []
+// console.log(d,'ilk d')
+// for(i= 0 ; i<ada.length - 1 ;i++){
+//   console.log(i)
+//   d.push(Number([i]-[i]))
+// }
+
+
+
+//  console.log(d)
+
+let rf = [1,2,5,8,11]
+let s = []
+
+for(i= 0; i<rf.length-1 ;i++){
+  if(rf[i] %2 == 0){
+     s.push(rf[i])
+     console.log(s,'s')
+     console.log(s.length)
+ 
+  }
 }
-
-
-
- console.log(d)
 
 
 
