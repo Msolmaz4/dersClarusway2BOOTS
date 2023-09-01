@@ -155,16 +155,40 @@ console.log('hello')
 ///////girilen sayalar arda uc sayi ardasiksa true nzaysdir
 //////////////////////////////////////
 ///////////////////////////////
-let der = [3,4,5,11,98]
 
-function ert(){
 
-    for(i=0 ; i <der.length ;i++){
-    if(der[i+1]- der[i] == 1 && der[i+2]-der[i] == 2) {
-      return  console.log(true)
-    }else return console.log(flase)
-     
+// function ert(){
+
+// let der = [5,4,5,11,98,99,100]
+
+//     for(i=0 ; i <der.length-2 ;i++){
+//     if(der[i+1] == der[i]+1 && der[i+2]== der[i+1] + 1) {
+//       return true
+//     }else  
+//       return false
+    
+// }
+// }
+// ert()
+
+let as = +prompt('deger giriniz')
+let der = []
+
+for(i = 0 ; i<as ;i++){ 
+    
+    if(i %3 == 0 && i%15 != 0){
+        der.push('poooo')
+    }
+    else if(i %5 == 0 && i%15 != 0){
+        der.push('ppppppppp')
+    }
+    else if(i %15 == 0){
+        der.push('biyybuyyyyyyyy')
+    }
+der.push(i)
+    
+  
 }
-}
-ert()
+console.log(der)
+
 
