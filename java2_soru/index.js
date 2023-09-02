@@ -171,24 +171,24 @@ console.log('hello')
 // }
 // ert()
 
-let as = +prompt('deger giriniz')
-let der = []
+// let as = +prompt('deger giriniz')
+// let der = []
 
-for(i = 0 ; i<as ;i++){ 
+// for(i = 0 ; i<as ;i++){ 
     
-    if(i %3 == 0 && i%15 != 0){
-        der.push('poooo')
-    }
-    else if(i %5 == 0 && i%15 != 0){
-        der.push('ppppppppp')
-    }
-    else if(i %15 == 0){
-        der.push('biyybuyyyyyyyy')
-    }
-der.push(i)
+//     if(i %3 == 0 && i%15 != 0){
+//         der.push('poooo')
+//     }
+//     else if(i %5 == 0 && i%15 != 0){
+//         der.push('ppppppppp')
+//     }
+//     else if(i %15 == 0){
+//         der.push('biyybuyyyyyyyy')
+//     }
+// der.push(i)
     
   
-}
-console.log(der)
+// }
+// console.log(der)
 
 
