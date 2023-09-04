@@ -190,5 +190,14 @@ console.log('hello')
   
 // }
 // console.log(der)
+let dr = [1,4]
+let fr = []
+console.log(dr,'dr')
+
+for(i = 0; i<dr.length ; i++)
+{ if(dr[i] == 1){
+    dr.push(dr[i]==4)
+    console.log(dr,'derere')
+}}
 
 
