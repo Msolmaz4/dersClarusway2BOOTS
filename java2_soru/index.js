@@ -201,3 +201,15 @@ for(i = 0; i<dr.length ; i++)
 }}
 
 
+let efr = [1,3,7]
+let plk= []
+
+for(i = 0; i<efr.length ; i++){
+    if(efr[0] > efr[2]){
+
+    }
+    else{
+       plk.push(efr[2])
+    }
+}
+console.log(plk)
