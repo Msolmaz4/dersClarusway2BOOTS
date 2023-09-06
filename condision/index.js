@@ -64,3 +64,39 @@
 
 // }
 
+// let a = 'muhammet'
+
+// for(i=0 ; i<10 ; i++){
+//     console.log(a)
+// }
+
+
+// let toplam =0
+// for ( i = 1 ; i<=100 ; i++){
+//     toplam = toplam+i
+   
+// } console.log(toplam)
+
+
+
+// for(i=1 ; i<100 ; i++)
+// {
+//     let a=+prompt('1 notu giriniz')
+//     let b=+prompt('2 notu giriniz')
+//     let c=+prompt('3 notu giriniz')
+//     let ortlama  = (a+b+c)/3 
+//     console.log(ortlama)
+    
+// (ortlama)
+function add(a, b) {
+    const dere = a+b
+    console.log(dere)
+   return dere
+}
+add(3 ,5)
+
+for(i= 1 ; i<5 ; i++){
+    for(j=1 ; j<5 ; j++){
+        console.log(i*j)
+    }
+}
