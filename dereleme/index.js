@@ -74,15 +74,34 @@ console.log('derele')
 
 //parameterl ile argumembt esleneip eslenmdegi paramaetere girin argument foksitonda yaana
 
-function dere(a,b){
-    if(arguments.length === dere.length){
-        console.log('okey')
+// function dere(a,b){
+//     if(arguments.length === dere.length){
+//         console.log('okey')
+//     }
+//     else{
+//         console.log('hayir')
+//     }
+// }
+// dere(1)
+// dere(1,2)
+// dere(1,2,3)
+
+////////////////////////////////
+///////////////////////////\
+///// YENI arrayde ayni olamnalari gosterme
+//////////////////////'\
+
+let fg = [1,2,3,3,4,4,5,6,7,7]
+let sd = []
+
+for(i=0 ; i<fg.length ; i++){
+    if(!sd.includes(fg[i]))
+    {
+        sd.push(fg[i])
     }
-    else{
-        console.log('hayir')
-    }
+     
 }
-dere(1)
-dere(1,2)
-dere(1,2,3)
+console.log(sd)
+
+
 
