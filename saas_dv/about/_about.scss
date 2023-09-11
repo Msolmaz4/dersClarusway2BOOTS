@@ -1,0 +1,50 @@
+.dere1{
+    width: 100%;
+    height: 500px;
+    border:$border;
+    p{
+     margin-top: 400px;
+
+       
+    }
+}
+.boxs{
+    border: $border;
+    margin:0 90px;
+    height: 400px;
+    .box1{
+        height: 33%;
+        background-color:red;
+    }
+    .box2{
+        height: 33%;
+        background-color:rgb(61, 14, 191);
+    }
+    .box3{
+        height: 33%;
+        background-color:red;
+    }
+}
+footer{
+    .icons{
+        @include icons(column);
+        margin-top: -200px;
+        margin-left: -11px;
+    }
+    .icon1{
+        border:$border;
+        padding: 5px;
+        gap: 2rem;
+        width: 80px;
+        height: 40px;
+    }
+    .icon2{
+        @extend .icon1
+    }
+    .icon3{
+        @extend .icon1
+    }
+    .icon4{
+        @extend .icon1
+    }
+}
