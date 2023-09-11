@@ -1,0 +1,71 @@
+navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+      
+        &:hover{
+        cursor: pointer;
+        color:red;
+    }
+    }
+ 
+}
+
+.boxs1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 2rem;
+   transform: 2s;
+  
+   gap:2rem;
+    .box1{
+        height: 33%;
+        background-color:red; 
+        width: 20%;
+        height: 160px;
+        img{
+            width: 100%;
+            height: 160px;
+            
+            transform:  0.25s;
+        }
+        & :hover{
+        
+        }
+        
+    }
+    .box2{
+        @extend .box1
+    }
+    .box3{
+        @extend .box1
+    }
+    .box4{
+        @extend .box1
+    }
+    .box5{
+        @extend .box1
+    }
+    .box6{
+        @extend .box1
+    }
+    .box7{
+        @extend .box1
+    }
+    .box8{
+        @extend .box1
+    }
+    
+    
+}

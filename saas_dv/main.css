@@ -11,6 +11,17 @@ body {
   background-color: bisque;
 }
 
+.ilk {
+  border: 2px solid red;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80%;
+}
+.ilk .ust {
+  margin-top: 350px;
+}
+
 footer {
   display: flex;
 }
@@ -18,7 +29,8 @@ footer .icons1 {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  border: 2px solid red;
+  position: fixed;
+  bottom: 0;
 }
 footer .icons1 .icon1, footer .icons1 .icon4, footer .icons1 .icon3, footer .icons1 .icon2 {
   border: 2px solid red;
@@ -63,24 +75,15 @@ ul a:hover {
   margin: 0 90px;
   height: 400px;
 }
-.boxs .box1 {
+.boxs .box1, .boxs .boxs1 .box8, .boxs1 .boxs .box8, .boxs .boxs1 .box7, .boxs1 .boxs .box7, .boxs .boxs1 .box6, .boxs1 .boxs .box6, .boxs .boxs1 .box5, .boxs1 .boxs .box5, .boxs .boxs1 .box4, .boxs1 .boxs .box4, .boxs .box3, .boxs .box2 {
   height: 33%;
-  background-color: red;
+  background-color: olive;
+  border-bottom: 15px solid orange;
 }
-.boxs .box2 {
-  height: 33%;
-  background-color: rgb(61, 14, 191);
-}
-.boxs .box3 {
-  height: 33%;
-  background-color: red;
-}
-
 footer .icons {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border: 2px solid red;
   margin-top: -200px;
   margin-left: -11px;
 }
@@ -90,6 +93,47 @@ footer .icon1, footer .icon4, footer .icon3, footer .icon2, footer .icons1 .icon
   gap: 2rem;
   width: 80px;
   height: 40px;
+}
+navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+}
+ul li {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+}
+ul a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.boxs1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  transform: 2s;
+  gap: 2rem;
+}
+.boxs1 .box1, .boxs1 .box8, .boxs1 .box7, .boxs1 .box6, .boxs1 .box5, .boxs1 .box4, .boxs1 .box3, .boxs1 .box2 {
+  height: 33%;
+  background-color: red;
+  width: 20%;
+  height: 160px;
+}
+.boxs1 .box1 img, .boxs1 .box8 img, .boxs1 .box7 img, .boxs1 .box6 img, .boxs1 .box5 img, .boxs1 .box4 img, .boxs1 .box3 img, .boxs1 .box2 img {
+  width: 100%;
+  height: 160px;
+  transform: 0.25s;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -14,16 +14,17 @@
     height: 400px;
     .box1{
         height: 33%;
-        background-color:red;
+        background-color:olive;
+        border-bottom: 15px solid orange;
+
     }
     .box2{
-        height: 33%;
-        background-color:rgb(61, 14, 191);
+       @extend .box1;
     }
     .box3{
-        height: 33%;
-        background-color:red;
+        @extend .box1;
     }
+    
 }
 footer{
     .icons{
