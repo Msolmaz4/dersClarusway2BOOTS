@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 190, 190);
+}
+.contanier{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%,-90%);
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+
+}
+.contant{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-60%,-60%);
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.contanier:hover .overlay{
+    opacity: 0.8;
+}
