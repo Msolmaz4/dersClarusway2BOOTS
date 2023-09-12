@@ -1,0 +1,141 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+  padding: 0.4rem;
+}
+.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+  color: #ff652f;
+}
+
+footer.horizontal {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 10vh;
+  padding: 1rem;
+}
+
+footer.vertical {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer.vertical .social-icons {
+  position: fixed;
+  flex-direction: column;
+  bottom: 1 rem;
+}
+footer.vertical .copyright {
+  position: fixed;
+  bottom: 1rem;
+  transform: rotate(90deg) translate3d(-3rem, -1rem);
+}
+
+.nav {
+  border: 2px solid blue;
+  height: 10vh;
+  padding: 1rem;
+}
+.nav_list {
+  text-align: right;
+}
+.nav_item {
+  display: inline;
+  padding: 1rem;
+}
+.nav_link {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.nav_link:hover {
+  color: blue;
+}
+.nav_link--active {
+  color: #ff652f;
+}
+
+.about-bgImg-container {
+  border: 2px solid red;
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/project-6.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-bgImg-container .about__bio-image {
+  text-align: center;
+}
+.about-bgImg-container .about__bio-image h2 {
+  font-size: 3rem;
+  color: #ff652f;
+}
+.about-bgImg-container .about__bio-image p {
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.about__container {
+  border: 2px solid red;
+  width: 70%;
+  margin: 2rem auto;
+}
+.about .about__job {
+  border: 2px solid red;
+  margin: 1rem;
+  background-color: #414141;
+  border-bottom: 5px solid #ff652f;
+}
+.about .about__job h2.h3 {
+  margin: 0.5rem 0;
+}
+
+.home-bgImg-contanier {
+  background-image: url("../../img/Download.jpeg");
+}
+
+.home {
+  border: 2px solid red;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home_name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid red;
+  width: 100%;
+}
+.home_name--last {
+  color: red;
+}
+
+.project-bgImg-container {
+  border: 2px solid red;
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/project-6.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-bgImg-container .projects__bio-image {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

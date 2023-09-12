@@ -1,0 +1,11 @@
+.project-bgImg-container{
+    border: 2px solid red;
+    @include bgImg(40vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .projects__bio-image{
+        text-align: center;
+        
+    }
+}

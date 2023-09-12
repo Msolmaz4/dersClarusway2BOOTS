@@ -1,0 +1,38 @@
+.link-style{
+    a{
+        padding:0.4rem;
+        &:hover{
+            color:$secondary-color;
+        }
+    }
+}
+
+
+footer.horizontal{
+    border:2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    padding: 1rem;
+    @extend .link-style;
+}
+footer.vertical{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   .social-icons{
+    position: fixed;
+    flex-direction: column;
+    bottom: 1 rem;
+    @extend .link-style;
+   }
+   .copyright{
+    position: fixed;
+    bottom: 1rem;
+    transform: rotate(90deg) translate3d(-3rem,-1rem);
+
+   }
+
+}

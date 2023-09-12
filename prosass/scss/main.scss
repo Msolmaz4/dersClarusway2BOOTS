@@ -1,0 +1,10 @@
+//absra
+@import './abstrac/mixins';
+@import './abstrac/variable';
+
+@import './base/reset';
+
+@import './componnets/footer','./componnets/nav','./componnets/responsive';
+
+@import './pages/about','./pages/contact','./pages/home','./pages/projects';
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
