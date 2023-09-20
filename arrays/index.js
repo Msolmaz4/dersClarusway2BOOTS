@@ -40,28 +40,45 @@ console.log('arrays')
 //* göre aramamızı sağlayacak ve o türden kaç adet bulunduğunu
 //*  ana programa döndürecek fonksiyonu yazınız.
 //*--------------------------------------------------------
-const animal = [
-    "fil",
-    "aslan",
-    "deve",
-    "fil",
-    "kaplan",
-    "fil",
-    "deve",
-    "aslan",
-    "aslan",
-    "aslan",
-  ];
+// const animal = [
+//     "fil",
+//     "aslan",
+//     "deve",
+//     "fil",
+//     "kaplan",
+//     "fil",
+//     "deve",
+//     "aslan",
+//     "aslan",
+//     "aslan",
+//   ];
 
-  const user = prompt('bir hayvan adi ')
-   let say = 0
-  const fine = ()=>{
-    for (let i in animal){
-        if(animal[i] == user){
-            say++
-        }
-    }
-       return say
-  }
-  console.log(fine())
-  console.log('dere')
+//   const user = prompt('bir hayvan adi ')
+//    let say = 0
+//   const fine = ()=>{
+//     for (let i in animal){
+//         if(animal[i] == user){
+//             say++
+//         }
+//     }
+//        return say
+//   }
+//   console.log(fine())
+//   console.log('dere')
+
+//* ======================================================
+//*                   FOR OF LOOP
+//* ======================================================
+
+//* for of dongusu, for in dongusunun bir cok veri yapisini kapsayacak sekilde guncellenmis halidir. Bu dongude dizi icindeki veriye erisirken indisleme kullanmaya gerek yoktur.
+
+//* ORNEK: alttaki dizinin elemanlarını yanyana string olarak yazdır (for of döngüsü kullanın)
+
+const arabalar = ["bmw", "mercedes", "audi", "volvo"]
+
+console.log(arabalar.join(''))
+let araba = ''
+for(let i of arabalar){
+    araba +=i
+}
+console.log(araba)
