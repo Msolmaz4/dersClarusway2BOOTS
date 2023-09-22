@@ -63,23 +63,29 @@
 
 
 
-const isim = []
+// const isim = []
 
-while(true){
+// while(true){
     
-    const derwn = prompt('isim gir')
-    if(derwn === 'q')
-    {
-        isim.pop()
-        break
+//    // const derwn = prompt('isim gir')
+//     if(derwn === 'q')
+//     {
+//         isim.pop()
+//         break
+//     }
+//  else{
+//      isim.push(derwn)
+//  }   
+// }
+//  console.log(isim);
+
+
+const dert = ["John", "Taylor", "John"]
+let bf= []
+
+dert.map((er)=>{
+    if(!bf.includes(er)){
+        bf.push(er)
     }
- else{
-     isim.push(derwn)
-
- }   
-  
-}
- console.log(isim);
-
-
-
+})
+console.log(bf);
