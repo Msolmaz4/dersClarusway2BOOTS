@@ -89,3 +89,36 @@ dert.map((er)=>{
     }
 })
 console.log(bf);
+
+
+
+//! 13- Size bir dizi kelime verildi. "Nemo" kelimesini bulmanız ve şuna benzer bir dize döndürmeniz gerekir: 
+
+//? "[Nemo'yu bulduğunuz kelimenin sırası] 'nda Nemo'yu buldum!"
+
+//? Nemo'yu bulamıyorsanız, "I can't find Nemo :(" yazın.
+
+//? findNemo("I am finding Nemo !") ➞ "I found Nemo at 4!"
+
+//? findNemo("Nemo is me") ➞ "I found Nemo at 1!"
+
+//? findNemo("I Nemo am") ➞ "I found Nemo at 2!"
+
+
+const keli = 'adam illa memo bulacak'
+
+function findNemo (kelime) {
+    if(kelime.includes('memo')){
+        let er = kelime.split(' ')
+        console.log(er);
+        for(i = 0 ;i<er.length ;i++){
+            if(er[i]=== 'memo'){
+                console.log(`memo ${i} indektse bulunmustur`);
+            }
+               
+        }
+        return `I found Nemo at index: ${i}`
+    }
+    
+}
+findNemo(keli)
