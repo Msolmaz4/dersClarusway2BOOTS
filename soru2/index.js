@@ -114,11 +114,9 @@ function findNemo (kelime) {
         for(i = 0 ;i<er.length ;i++){
             if(er[i]=== 'memo'){
                 console.log(`memo ${i} indektse bulunmustur`);
-            }
-               
+            }    
         }
         return `I found Nemo at index: ${i}`
     }
-    
 }
 findNemo(keli)
