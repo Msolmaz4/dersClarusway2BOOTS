@@ -124,14 +124,14 @@
 
 
 
-const names = ["Alice", "Bob", "Charlie"];
-// const nameLengths = // Write Your code here
-// console.log(nameLengths) // [5, 3, 7]
-let lengths = [];
-names.map((er)=>{
-    lengths.push(er.length)
-})
-console.log(lengths);
+// const names = ["Alice", "Bob", "Charlie"];
+// // const nameLengths = // Write Your code here
+// // console.log(nameLengths) // [5, 3, 7]
+// let lengths = [];
+// names.map((er)=>{
+//     lengths.push(er.length)
+// })
+// console.log(lengths);
 
 
 const words = ["apple", "banana", "cherry"];
@@ -139,14 +139,20 @@ const words = ["apple", "banana", "cherry"];
 // console.log(capitalizedWords) //['APPLE', 'BANANA', 'CHERRY']
 
 console.log(words.map((ert)=>{
-    console.log(ert.toUpperCase());
+    console.log(ert,'map');
+    //console.log(ert.toUpperCase());
+}));
+//
+console.log(words.forEach((ert)=>{
+    console.log(ert,'foreach');
+    //console.log(ert.toUpperCase());
 }));
 
 
 const input = "John Ronald Reuel Tolkien"
 
 let ko = input.split(' ')
-console.log(ko);
+//console.log(ko);
 let sont = []
 ko.map((er)=>{
    
