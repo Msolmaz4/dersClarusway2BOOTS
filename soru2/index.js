@@ -171,3 +171,38 @@ ko.map((er)=>{
  }
  
  console.log(sum);
+
+
+ const products = [
+  { name: "Product 1", price: 20, category: "Electronics" },
+  { name: "Product 2", price: 30, category: "Clothes" },
+  { name: "Product 3", price: 40, category: "Electronics" },
+  { name: "Product 4", price: 50, category: "Clothes" },
+  { name: "Product 5", price: 60, category: "Clothes" },
+  { name: "Product 6", price: 70, category: "Electronics" },
+  { name: "Product 7", price: 80, category: "Clothes" },
+  { name: "Product 8", price: 90, category: "Electronics" },
+  ];
+ let av = 0
+ let say =0
+ let ert = []
+ let son = 0
+ let son1 = 0
+ products.map((er) => {
+    if(er.category === 'Electronics'){
+      say++
+       av += er.price
+     son = av/say
+     
+   }
+    if(er.category === 'Clothes'){
+      say++
+       av += er.price
+     son1 = av/say
+     
+   }
+ }
+ 
+  );
+  ert.push({category:'Electronics',avare:`${son}`},{category:'Clothes',avare:`${son1}`})
+  console.log(ert)
