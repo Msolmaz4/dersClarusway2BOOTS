@@ -44,4 +44,13 @@ const dizi=[1,2,3,4,5,6]
       team.map((er)=>{
        console.log(er.salary*1.1); 
       }
-      )
+      )//! Object kendi içinde var olan özellikleridir
+// Object.keys
+// Object.values
+// Object.entries
+
+
+
+console.log(Object.keys(team));
+console.log(Object.values(team));
+console.log(Object.entries(team))
