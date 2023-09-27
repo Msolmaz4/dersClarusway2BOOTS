@@ -183,6 +183,7 @@ ko.map((er)=>{
   { name: "Product 7", price: 80, category: "Clothes" },
   { name: "Product 8", price: 90, category: "Electronics" },
   ];
+  
  let av = 0
  let say =0
  let ert = []
